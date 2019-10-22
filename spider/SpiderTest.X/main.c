@@ -48,14 +48,14 @@ int main(void)
     TCA0_EnableInterrupt();
     TCA0_ClearOverflowInterruptFlag();
     
-    TCB0_SetCaptIsrCallback(periodDcCapture);
-    TCB0_EnableInterrupt();
-    TCB0_ClearInterruptFlag();
+    //TCB0_SetCaptIsrCallback(periodDcCapture);
+    //TCB0_EnableInterrupt();
+   // TCB0_ClearInterruptFlag();
     Enable_global_interrupt();
     IO_PA1_SetLow();
     IO_PA2_SetHigh();
     
-    TCA0.SINGLE.CMP0 = TCA0.SINGLE.PER>>1;
+    //TCA0.SINGLE.CMP0 = TCA0.SINGLE.PER>>1;
 
     //Enable Global Interrupt
     
@@ -64,11 +64,7 @@ int main(void)
 
         switch(delayCountState){
             case 0: //Let's look for a activation
-                if ((signalRx > 0) &&
-                        (dutyCycle > (TCA0.SINGLE.CMP0 - 10)) && //Duty Cycle must be within a +/- 10 count band
-                        (dutyCycle < (TCA0.SINGLE.CMP0 + 10)) &&
-                        (period > (TCA0.SINGLE.PER - 10)) && //Period must be within a +/- 10 count band
-                        (period < (TCA0.SINGLE.PER + 10))) {
+                if ((IO_PA6_GetValue() > 0 )) {
                     signalRx = 0;
                     signalCount++;
                 }
@@ -95,7 +91,7 @@ int main(void)
                 if(overflowOccured == 1){
                     delayCount++;
                 }
-                if(delayCount > 5000){ //TCA0 overflow is 1ms interval.
+                if(delayCount > 2500){ //TCA0 overflow is 1ms interval.
                     delayCountState = 0;
                     delayCount = 0;
                     signalCount = 0;

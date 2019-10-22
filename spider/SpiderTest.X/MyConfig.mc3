@@ -295,12 +295,12 @@
          <value>TCA0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER5" settingAlias="ASYNCUSER5" alias="ASYNCCH0"/>
-         <value>3</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLECLR" settingAlias="CMD" alias="NONE"/>
          <value>0</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER5" settingAlias="ASYNCUSER5" alias="ASYNCCH0"/>
+         <value>3</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER5" settingAlias="ASYNCUSER5" alias="ASYNCCH1"/>
@@ -327,10 +327,6 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER5" settingAlias="ASYNCUSER5" alias="ASYNCCH2"/>
-         <value>5</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="TCA0_CMP0IISRFunction"/>
          <value>ISR_TCA0_CMP0I</value>
       </entry>
@@ -341,6 +337,10 @@
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLECLR" settingAlias="CMD" alias="UPDATE"/>
          <value>1</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER5" settingAlias="ASYNCUSER5" alias="ASYNCCH2"/>
+         <value>5</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER5" settingAlias="ASYNCUSER5" alias="ASYNCCH3"/>
@@ -427,12 +427,12 @@
          <value>15</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH0" settingAlias="SYNCCH0" alias="PORTA_PIN0"/>
-         <value>13</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SINGLE_INTFLAGS" settingAlias="CMP2"/>
          <value>disabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH0" settingAlias="SYNCCH0" alias="PORTA_PIN0"/>
+         <value>13</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="System Module" name="bodSleepModeOperation"/>
@@ -443,16 +443,16 @@
          <value>18</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH0" settingAlias="SYNCCH0" alias="PORTA_PIN6"/>
-         <value>19</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel4actualTimeout_split"/>
          <value>600 ns</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel5requestedTimeout_split"/>
          <value>600 ns</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH0" settingAlias="SYNCCH0" alias="PORTA_PIN6"/>
+         <value>19</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER10" settingAlias="ASYNCUSER10" alias="ASYNCCH0"/>
@@ -479,12 +479,12 @@
          <value>13</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH2" settingAlias="ASYNCCH2" alias="PORTC_PIN4"/>
-         <value>14</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel4Enable_split_pwm"/>
          <value>false</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH2" settingAlias="ASYNCCH2" alias="PORTC_PIN4"/>
+         <value>14</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH2" settingAlias="ASYNCCH2" alias="PORTC_PIN5"/>
@@ -495,12 +495,12 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH2" settingAlias="ASYNCCH2" alias="PORTC_PIN0"/>
-         <value>10</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCB0" registerAlias="CTRLB"/>
          <value>5</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH2" settingAlias="ASYNCCH2" alias="PORTC_PIN0"/>
+         <value>10</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH2" settingAlias="ASYNCCH2" alias="PORTC_PIN1"/>
@@ -687,11 +687,11 @@
          <value>0 s</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER9" settingAlias="ASYNCUSER9" alias="SYNCCH0"/>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_CTRLC" settingAlias="HCMP0OV" alias="enabled"/>
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_CTRLC" settingAlias="HCMP0OV" alias="enabled"/>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER9" settingAlias="ASYNCUSER9" alias="SYNCCH0"/>
          <value>1</value>
       </entry>
       <entry>
@@ -723,10 +723,6 @@
          <value>false</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="SYNCUSER1" settingAlias="SYNCUSER1"/>
-         <value>OFF</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="actualTimeout2"/>
          <value>0 s</value>
       </entry>
@@ -737,6 +733,10 @@
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLESET" settingAlias="CMD" alias="RESTART"/>
          <value>2</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="SYNCUSER1" settingAlias="SYNCUSER1"/>
+         <value>OFF</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="RSTCTRL" registerAlias="RSTFR" settingAlias="UPDIRF" alias="disabled"/>
@@ -752,7 +752,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCB0" registerAlias="CTRLA" settingAlias="ENABLE"/>
-         <value>enabled</value>
+         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="Pin Module" registerAlias="PORTA.PIN5CTRL" settingAlias="PULLUPEN" alias="enabled"/>
@@ -835,19 +835,19 @@
          <value>disabled</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER3" settingAlias="ASYNCUSER3" alias="SYNCCH1"/>
-         <value>2</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCB0" name="CLK_TCB"/>
          <value>1000000</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER6"/>
-         <value>0</value>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER3" settingAlias="ASYNCUSER3" alias="SYNCCH1"/>
+         <value>2</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCA0" registerAlias="TCA_SPLIT_LPER"/>
+         <value>0</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER6"/>
          <value>0</value>
       </entry>
       <entry>
@@ -911,12 +911,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="SYNCSTROBE"/>
-         <value>0</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_INTCTRL" settingAlias="LCMP1" alias="enabled"/>
          <value>1</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="SYNCSTROBE"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCB0" registerAlias="CTRLB" settingAlias="CNTMODE" alias="PW"/>
@@ -979,16 +979,16 @@
          <value>3</value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel1InterruptEnable_split_timeout"/>
+         <value>false</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER4"/>
          <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH0" settingAlias="SYNCCH0" alias="OFF"/>
          <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel1InterruptEnable_split_timeout"/>
-         <value>false</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="System Module" registerAlias="TCD0CFG" settingAlias="CMPD"/>
@@ -1008,7 +1008,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCB0" registerAlias="CTRLA"/>
-         <value>5</value>
+         <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CPUINT" registerAlias="STATUS"/>
@@ -1103,11 +1103,11 @@
          <value>5</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER9"/>
+         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCA0" registerAlias="TCA_SPLIT_LCNT"/>
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCA0" registerAlias="TCA_SPLIT_LCNT"/>
+         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER9"/>
          <value>0</value>
       </entry>
       <entry>
@@ -1163,12 +1163,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="ASYNCCH2" settingAlias="ASYNCCH2"/>
-         <value>OFF</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCB0" registerAlias="INTFLAGS" settingAlias="CAPT" alias="disabled"/>
          <value>0</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="ASYNCCH2" settingAlias="ASYNCCH2"/>
+         <value>OFF</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="Pin Module" registerAlias="PORTA.PIN3CTRL" settingAlias="ISC" alias="RISING"/>
@@ -1195,12 +1195,12 @@
          <value>18</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CLKCTRL" registerAlias="MCLKCTRLB" settingAlias="PDIV" alias="16X"/>
-         <value>3</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CPUINT" registerAlias="SREG" settingAlias="I" alias="enabled"/>
          <value>1</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CLKCTRL" registerAlias="MCLKCTRLB" settingAlias="PDIV" alias="16X"/>
+         <value>3</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="BOD" registerAlias="CTRLA" settingAlias="SAMPFREQ" alias="125Hz"/>
@@ -1267,16 +1267,16 @@
          <value>11</value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_INTFLAGS" settingAlias="HUNF" alias="disabled"/>
+         <value>0</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER7"/>
          <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH0" settingAlias="ASYNCCH0" alias="PORTA_PIN2"/>
          <value>12</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_INTFLAGS" settingAlias="HUNF" alias="disabled"/>
-         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH0" settingAlias="ASYNCCH0" alias="PORTA_PIN7"/>
@@ -1287,20 +1287,20 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH0" settingAlias="ASYNCCH0" alias="PORTA_PIN5"/>
-         <value>15</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_CTRLA" settingAlias="CLKSEL" alias="DIV64"/>
          <value>5</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH0" settingAlias="ASYNCCH0" alias="PORTA_PIN6"/>
-         <value>16</value>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH0" settingAlias="ASYNCCH0" alias="PORTA_PIN5"/>
+         <value>15</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="CLK_TCA"/>
          <value>1000000</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH0" settingAlias="ASYNCCH0" alias="PORTA_PIN6"/>
+         <value>16</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER2" settingAlias="ASYNCUSER2" alias="ASYNCCH1"/>
@@ -1311,12 +1311,12 @@
          <value>3</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER2" settingAlias="ASYNCUSER2" alias="ASYNCCH3"/>
-         <value>6</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SPLIT_CTRLB" settingAlias="HCMP1EN"/>
          <value>disabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER2" settingAlias="ASYNCUSER2" alias="ASYNCCH3"/>
+         <value>6</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="RSTCTRL" registerAlias="RSTFR" settingAlias="PORF" alias="disabled"/>
@@ -1339,11 +1339,11 @@
          <value>disabled</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="SYNCUSER1"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel5actualDC_split"/>
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel5actualDC_split"/>
+         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="SYNCUSER1"/>
          <value>0</value>
       </entry>
       <entry>
@@ -1371,10 +1371,6 @@
          <value>OFF</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="ASYNCUSER0" settingAlias="ASYNCUSER0"/>
-         <value>ASYNCCH0</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCB0" registerAlias="CTRLA" settingAlias="RUNSTDBY" alias="enabled"/>
          <value>1</value>
       </entry>
@@ -1383,12 +1379,16 @@
          <value>disabled</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER0" settingAlias="ASYNCUSER0" alias="OFF"/>
-         <value>0</value>
+         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="ASYNCUSER0" settingAlias="ASYNCUSER0"/>
+         <value>OFF</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SINGLE_INTCTRL" settingAlias="CMP2"/>
          <value>disabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER0" settingAlias="ASYNCUSER0" alias="OFF"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCB0" registerAlias="DBGCTRL" settingAlias="DBGRUN" alias="enabled"/>
@@ -1415,12 +1415,12 @@
          <value>disabled</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="TCD0_PROGEV"/>
-         <value>7</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel0InterruptEnable_normal_freqGen"/>
          <value>false</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="TCD0_PROGEV"/>
+         <value>7</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="BOD" registerAlias="INTCTRL"/>
@@ -1495,12 +1495,12 @@
          <value>2</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="RTC_OVF"/>
-         <value>8</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="CLK_PER"/>
          <value>1000000</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="RTC_OVF"/>
+         <value>8</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="OUT_PA0"/>
@@ -1603,12 +1603,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="TCD0_CMPASET"/>
-         <value>5</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLESET" settingAlias="LUPD" alias="enabled"/>
          <value>1</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="TCD0_CMPASET"/>
+         <value>5</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_INTCTRL" settingAlias="OVF" alias="enabled"/>
@@ -1707,12 +1707,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER3" settingAlias="ASYNCUSER3" alias="ASYNCCH0"/>
-         <value>3</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_INTCTRL" settingAlias="LCMP2" alias="enabled"/>
          <value>1</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER3" settingAlias="ASYNCUSER3" alias="ASYNCCH0"/>
+         <value>3</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER3" settingAlias="ASYNCUSER3" alias="ASYNCCH1"/>
@@ -1735,16 +1735,16 @@
          <value>1</value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLD" settingAlias="SPLITM" alias="disabled"/>
+         <value>0</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER2"/>
          <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER3" settingAlias="ASYNCUSER3" alias="ASYNCCH2"/>
          <value>5</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLD" settingAlias="SPLITM" alias="disabled"/>
-         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="WDT" registerAlias="CTRLA" settingAlias="PERIOD" alias="32CLK"/>
@@ -1764,7 +1764,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER0"/>
-         <value>3</value>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH0" settingAlias="ASYNCCH0" alias="RTC_OVF"/>
@@ -1831,12 +1831,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER1"/>
-         <value>0</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLB" settingAlias="ALUPD"/>
          <value>disabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER1"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="System Module" registerAlias="EXTBRK" settingAlias="ENEXTBRK" alias="disabled"/>
@@ -1935,12 +1935,12 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="SYNCUSER0"/>
-         <value>0</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel1Enable_normal_freqGen"/>
          <value>false</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="SYNCUSER0"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCA0" registerAlias="TCA_SPLIT_DBGCTRL"/>
@@ -2083,12 +2083,12 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="System Module" registerAlias="BODCFG" settingAlias="ACTIVE" alias="DIS"/>
-         <value>0</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CPUINT" registerAlias="CTRLA"/>
          <value>64</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="System Module" registerAlias="BODCFG" settingAlias="ACTIVE" alias="DIS"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCA0" registerAlias="TCA_SINGLE_INTFLAGS"/>
@@ -2215,16 +2215,16 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER10"/>
-         <value>0</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_INTFLAGS" settingAlias="LCMP0" alias="enabled"/>
          <value>1</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLA" settingAlias="CLKSEL" alias="DIV64"/>
          <value>5</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="EVSYS" registerAlias="ASYNCUSER10"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SPLIT_CTRLB" settingAlias="HCMP0EN"/>
@@ -2331,12 +2331,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH0" settingAlias="SYNCCH0" alias="TCA0_OVF_LUNF"/>
-         <value>2</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLECLR"/>
          <value>0</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH0" settingAlias="SYNCCH0" alias="TCA0_OVF_LUNF"/>
+         <value>2</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="PORTA.PIN2CTRL" settingAlias="INVEN"/>
@@ -2427,11 +2427,11 @@
          <value>2</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER1" settingAlias="ASYNCUSER1" alias="SYNCCH0"/>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_INTFLAGS" settingAlias="CMP0" alias="enabled"/>
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_INTFLAGS" settingAlias="CMP0" alias="enabled"/>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER1" settingAlias="ASYNCUSER1" alias="SYNCCH0"/>
          <value>1</value>
       </entry>
       <entry>
@@ -2467,16 +2467,12 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER6" settingAlias="ASYNCUSER6" alias="OFF"/>
-         <value>0</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_INTFLAGS" settingAlias="CMP2" alias="disabled"/>
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="RTC_CMP"/>
-         <value>9</value>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER6" settingAlias="ASYNCUSER6" alias="OFF"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel1InterruptEnable_split_pwm"/>
@@ -2495,12 +2491,16 @@
          <value>3</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCUSER1" settingAlias="SYNCUSER1" alias="OFF"/>
-         <value>0</value>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="RTC_CMP"/>
+         <value>9</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="timeout1InterruptEnable"/>
          <value>disabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCUSER1" settingAlias="SYNCUSER1" alias="OFF"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="Pin Module" registerAlias="PORTA.PIN1CTRL" settingAlias="ISC" alias="INPUT_DISABLE"/>
@@ -2755,24 +2755,24 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCUSER1" settingAlias="SYNCUSER1" alias="SYNCCH0"/>
-         <value>1</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="wgMode"/>
          <value>Single Slope PWM</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCUSER1" settingAlias="SYNCUSER1" alias="SYNCCH0"/>
+         <value>1</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="Pin Module" registerAlias="VPORTB.INTFLAGS"/>
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="System Module" registerAlias="SYSCFG0" settingAlias="RSTPINCFG"/>
-         <value>UPDI</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CPUINT" registerAlias="CTRLA" settingAlias="IVSEL" alias="disabled"/>
          <value>0</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="System Module" registerAlias="SYSCFG0" settingAlias="RSTPINCFG"/>
+         <value>UPDI</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel2actualDC_normal"/>
@@ -2895,12 +2895,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="PIT_DIV128"/>
-         <value>16</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_CTRLA" settingAlias="CLKSEL" alias="DIV256"/>
          <value>6</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="PIT_DIV128"/>
+         <value>16</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="Pin Module" registerAlias="PORTMUX.CTRLA" settingAlias="EVOUT2"/>
@@ -2915,11 +2915,11 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER9" settingAlias="ASYNCUSER9" alias="OFF"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel1actualDC_split"/>
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel1actualDC_split"/>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER9" settingAlias="ASYNCUSER9" alias="OFF"/>
          <value>0</value>
       </entry>
       <entry>
@@ -2940,7 +2940,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCB0" name="isTcbEnable"/>
-         <value>true</value>
+         <value>false</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="Pin Module" registerAlias="PORTA.PIN5CTRL" settingAlias="ISC" alias="FALLING"/>
@@ -3159,12 +3159,12 @@
          <value>9</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH1" settingAlias="SYNCCH1" alias="PORTB_PIN0"/>
-         <value>8</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="actualTimeout"/>
          <value>1 ms</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH1" settingAlias="SYNCCH1" alias="PORTB_PIN0"/>
+         <value>8</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CLKCTRL" registerAlias="MCLKCTRLA" settingAlias="CLKOUT" alias="disabled"/>
@@ -3175,20 +3175,20 @@
          <value>4</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER1" settingAlias="ASYNCUSER1" alias="ASYNCCH0"/>
-         <value>3</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel0Enable_normal_timeout"/>
          <value>true</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER1" settingAlias="ASYNCUSER1" alias="ASYNCCH3"/>
-         <value>6</value>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER1" settingAlias="ASYNCUSER1" alias="ASYNCCH0"/>
+         <value>3</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLFSET" settingAlias="CMP1BV"/>
          <value>disabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER1" settingAlias="ASYNCUSER1" alias="ASYNCCH3"/>
+         <value>6</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="Pin Module" registerAlias="PORTMUX.CTRLC" settingAlias="TCA01" alias="ALTERNATE"/>
@@ -3263,12 +3263,12 @@
          <value>15</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH1" settingAlias="SYNCCH1" alias="PORTB_PIN6"/>
-         <value>14</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_CTRLC" settingAlias="HCMP1OV" alias="enabled"/>
          <value>1</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="SYNCCH1" settingAlias="SYNCCH1" alias="PORTB_PIN6"/>
+         <value>14</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CLKCTRL" name="PIN_CLKI"/>
@@ -3447,12 +3447,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="PIT_DIV512"/>
-         <value>14</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SPLIT_DBGCTRL" settingAlias="DBGRUN"/>
          <value>enabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="PIT_DIV512"/>
+         <value>14</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="Pin Module" registerAlias="PORTMUX.CTRLA" settingAlias="LUT0" alias="ALTERNATE"/>
@@ -3547,12 +3547,12 @@
          <value>12</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="PORTB_PIN7"/>
-         <value>17</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCA0" registerAlias="TCA_SINGLE_TEMP"/>
          <value>0</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="PORTB_PIN7"/>
+         <value>17</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="PORTB_PIN6"/>
@@ -3599,6 +3599,10 @@
          <value>0</value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel0actualTimeout_split"/>
+         <value>600 ns</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER6" settingAlias="ASYNCUSER6" alias="ASYNCCH0"/>
          <value>3</value>
       </entry>
@@ -3607,12 +3611,12 @@
          <value>11</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel0actualTimeout_split"/>
-         <value>600 ns</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="System Module" registerAlias="BODCFG" settingAlias="SLEEP"/>
          <value>DIS</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SPLIT_INTFLAGS" settingAlias="LCMP2"/>
+         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER6" settingAlias="ASYNCUSER6" alias="ASYNCCH1"/>
@@ -3621,10 +3625,6 @@
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="PORTB_PIN0"/>
          <value>10</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SPLIT_INTFLAGS" settingAlias="LCMP2"/>
-         <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="WDT" registerAlias="CTRLA" settingAlias="PERIOD" alias="256CLK"/>
@@ -3807,12 +3807,12 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER9" settingAlias="ASYNCUSER9" alias="ASYNCCH1"/>
-         <value>4</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SPLIT_CTRLB" settingAlias="LCMP1EN"/>
          <value>disabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER9" settingAlias="ASYNCUSER9" alias="ASYNCCH1"/>
+         <value>4</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="System Module" registerAlias="WDTCFG" settingAlias="PERIOD" alias="256CLK"/>
@@ -3831,12 +3831,12 @@
          <value>1KHz</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER9" settingAlias="ASYNCUSER9" alias="ASYNCCH2"/>
-         <value>5</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel1InterruptEnable_normal_freqGen"/>
          <value>false</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER9" settingAlias="ASYNCUSER9" alias="ASYNCCH2"/>
+         <value>5</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER9" settingAlias="ASYNCUSER9" alias="ASYNCCH3"/>
@@ -3923,12 +3923,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="SYNCCH0" settingAlias="SYNCCH0"/>
-         <value>OFF</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel2actualFreq_normal"/>
          <value>833.33 kHz</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="SYNCCH0" settingAlias="SYNCCH0"/>
+         <value>OFF</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="BOD" registerAlias="CTRLA" settingAlias="ACTIVE" alias="ENWAKE"/>
@@ -4047,24 +4047,24 @@
          <value>9</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="EVSYS" name="PIN_EVSPA2"/>
-         <value></value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCB0" name="TCB0_INTISRFunction"/>
          <value>ISR_TCB0_INT</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="EVSYS" name="PIN_EVSPA2"/>
+         <value></value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="EVSYS" name="PIN_EVSPA3"/>
          <value></value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="EVSYS" name="PIN_EVSPA0"/>
-         <value></value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLECLR" settingAlias="DIR" alias="disabled"/>
          <value>0</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="EVSYS" name="PIN_EVSPA0"/>
+         <value></value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="EVSYS" name="PIN_EVSPA1"/>
@@ -4175,16 +4175,16 @@
          <value>enabled</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER7" settingAlias="ASYNCUSER7" alias="OFF"/>
-         <value>0</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCB0" registerAlias="CTRLA" settingAlias="ENABLE" alias="enabled"/>
          <value>1</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="PIN_WO1"/>
          <value/>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER7" settingAlias="ASYNCUSER7" alias="OFF"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCB0" name="timerPeriod"/>
@@ -4527,12 +4527,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="System Module" registerAlias="TCD0CFG" settingAlias="CMPA" alias="enabled"/>
-         <value>1</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Interrupt Manager" name="isCMPVectorEnable"/>
          <value>false</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="System Module" registerAlias="TCD0CFG" settingAlias="CMPA" alias="enabled"/>
+         <value>1</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CPUINT" registerAlias="CTRLA" settingAlias="LVL0RR" alias="enabled"/>
@@ -4571,16 +4571,16 @@
          <value>2</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="PIT_DIV1024"/>
-         <value>13</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="HUNFI" settingAlias="enable"/>
          <value>disabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLESET" settingAlias="CMD" alias="UPDATE"/>
          <value>1</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH3" settingAlias="ASYNCCH3" alias="PIT_DIV1024"/>
+         <value>13</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SINGLE_EVCTRL" settingAlias="CNTEI" alias="disabled"/>
@@ -4631,12 +4631,12 @@
          <value>disabled</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER0" settingAlias="ASYNCUSER0" alias="SYNCCH1"/>
-         <value>2</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="TCA0_OVFIISRFunction"/>
          <value>ISR_TCA0_OVFI</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER0" settingAlias="ASYNCUSER0" alias="SYNCCH1"/>
+         <value>2</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel4requestedTimeout_split"/>
@@ -4735,12 +4735,12 @@
          <value>833.33 kHz</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="CCL_LUT0"/>
-         <value>1</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCA0" registerAlias="TCA_SPLIT_LCMP2"/>
          <value>0</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCCH1" settingAlias="ASYNCCH1" alias="CCL_LUT0"/>
+         <value>1</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="RSTCTRL" registerAlias="RSTFR" settingAlias="EXTRF" alias="enabled"/>
@@ -4971,12 +4971,12 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="ASYNCUSER5" settingAlias="ASYNCUSER5"/>
-         <value>OFF</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel3actualTimeout_split"/>
          <value>600 ns</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="ASYNCUSER5" settingAlias="ASYNCUSER5"/>
+         <value>OFF</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CMP0"/>
@@ -5063,12 +5063,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="EVSYS" name="PIN_EVAPA2"/>
-         <value></value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TCA0" registerAlias="TCA_SINGLE_CTRLFCLR" settingAlias="PERBV"/>
          <value>disabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="EVSYS" name="PIN_EVAPA2"/>
+         <value></value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="EVSYS" name="PIN_EVAPA3"/>
@@ -5111,12 +5111,12 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER4" settingAlias="ASYNCUSER4" alias="ASYNCCH2"/>
-         <value>5</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TCA0" name="channel1Enable_normal_timeout"/>
          <value>false</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="EVSYS" registerAlias="ASYNCUSER4" settingAlias="ASYNCUSER4" alias="ASYNCCH2"/>
+         <value>5</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="Pin Module" registerAlias="PORTA.PIN0CTRL" settingAlias="ISC" alias="BOTHEDGES"/>
@@ -5219,12 +5219,12 @@
          <value>1</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="SYNCCH1" settingAlias="SYNCCH1"/>
-         <value>OFF</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TCA0" registerAlias="TCA_SPLIT_CTRLESET" settingAlias="CMD" alias="NONE"/>
          <value>0</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="EVSYS" registerAlias="SYNCCH1" settingAlias="SYNCCH1"/>
+         <value>OFF</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="RSTCTRL" registerAlias="RSTFR" settingAlias="EXTRF" alias="disabled"/>
